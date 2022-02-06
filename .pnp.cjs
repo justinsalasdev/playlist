@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/express", "npm:4.17.13"],
+            ["@types/node", "npm:17.0.15"],
             ["express", "npm:4.17.2"],
             ["nodemon", "npm:2.0.15"],
             ["ts-node", "virtual:c1a105a61d979d23fd23d0474fddb47fdbec1d775ef864ce426eace723499d4a319181c5a3e6fa851c96047ed505766348e323e47ec28f2d9f86394d80cc6c36#npm:10.4.0"],
@@ -228,6 +229,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-17.0.14-b146771fcf-cc059ce296.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:17.0.14"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:17.0.15", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.15-f5b63fc733-aa64ecf4fb.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:17.0.15"]
           ],
           "linkType": "HARD",
         }]
@@ -2016,6 +2024,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["playlist", "workspace:."],
             ["@types/express", "npm:4.17.13"],
+            ["@types/node", "npm:17.0.15"],
             ["express", "npm:4.17.2"],
             ["nodemon", "npm:2.0.15"],
             ["ts-node", "virtual:c1a105a61d979d23fd23d0474fddb47fdbec1d775ef864ce426eace723499d4a319181c5a3e6fa851c96047ed505766348e323e47ec28f2d9f86394d80cc6c36#npm:10.4.0"],
@@ -2518,7 +2527,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],
             ["@tsconfig/node14", "npm:1.0.1"],
             ["@tsconfig/node16", "npm:1.0.2"],
-            ["@types/node", null],
+            ["@types/node", "npm:17.0.15"],
             ["@types/swc__core", null],
             ["@types/swc__wasm", null],
             ["@types/typescript", null],
