@@ -1,3 +1,4 @@
 .yarn/*
+node_modules
 !.yarn/releases
 !.yarn/plugins
